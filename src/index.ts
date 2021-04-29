@@ -25,3 +25,10 @@ function getId(id: Id): string {
 
 console.log(typeof getId(4), getId("hallo"));
  */
+
+let a = [1, 2, 3];
+
+let b = [...a, 4, 5];
+
+console.log(a);
+console.log(b);
