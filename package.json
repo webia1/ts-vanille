@@ -4,7 +4,7 @@
   "description": "TS Vanille",
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/rxjs/map.ts",
+    "start": "ts-node src/rxjs/map-async.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

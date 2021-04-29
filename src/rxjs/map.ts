@@ -16,6 +16,9 @@ const songs = [
   },
 ];
 
+let a = songs.map((s) => s.artist);
+console.log("a: ", a);
+
 const songs$ = of(songs);
 
 songs$
