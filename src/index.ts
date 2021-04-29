@@ -1,4 +1,4 @@
-const arr: Array<string> = ["s", "t"];
+/* const arr: Array<string> = ["s", "t"];
 
 let someAny: any;
 
@@ -24,3 +24,4 @@ function getId(id: Id): string {
 }
 
 console.log(typeof getId(4), getId("hallo"));
+ */
