@@ -21,6 +21,10 @@ const fakeSearchApi = (artist: unknown): Observable<unknown> => {
 
  */
 
+/* from(artist)
+  .pipe(mergeMap((artist) => fakeSearchApi(artist)))
+  .subscribe((res) => console.log(res)); */
+
 from(artist)
   .pipe(mergeMap((artist) => fakeSearchApi(artist)))
   .subscribe((res) => console.log(res));
